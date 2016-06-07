@@ -1,0 +1,22 @@
+button {
+    margin: 0 auto 2px auto;
+    display: block;
+    background-color: #A0A0A0;
+    border: 0 none;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#wrap {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+   
+
+}
+
