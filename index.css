@@ -1,0 +1,109 @@
+
+
+html, body {
+    max-width: 100%;
+    overflow-x:hidden;
+}
+body {
+    margin-left:20px;
+    margin-right:20px;
+}
+#wrap {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+
+
+#sliderimages{
+  width:1000;
+  overflow:hidden;
+  margin: 50px auto;
+  background:white;
+}
+header h1{
+  width: 800px;
+  margin: 40 auto;
+}
+.photobanner{
+  height: 150px;
+  width: 3550px;
+  margin-bottom: 0px;
+}
+.first{
+   -webkit-animation: bannermove 15s linear infinite;
+       -moz-animation: bannermove 15s linear infinite;
+        -ms-animation: bannermove 15s linear infinite;
+         -o-animation: bannermove 15s linear infinite;
+            animation: bannermove 15s linear infinite;
+}
+
+@keyframes bannermove {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -3000px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3000px;
+ }
+ 
+}
+ 
+@-webkit-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3000px;
+ }
+ 
+}
+ 
+@-ms-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3000px;
+ }
+ 
+}
+ 
+@-o-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -3000px;
+ }
+ 
+}
+
+ 
+.photobanner img {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+p.lead{
+     padding-top: 30px;
+	
+}
+*{
+  margin:0;
+  padding:0;
+}
